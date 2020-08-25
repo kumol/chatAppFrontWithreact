@@ -41,10 +41,10 @@ const Chat = ({location })=>{
     return (
         <div className="outerContainer">
             <div className="container">
-                <input type="text " value={message}
+                {/* <input type="text " value={message}
                 onChange={(event)=>setMessage(event.target.value)}
                 onKeyPress={(event)=>event.key === 'Enter'?sendMessage(event):null}>
-                </input>
+                </input> */}
             </div>
         </div>
     )
